@@ -1,3 +1,4 @@
+import numpy as np
 def f(x):
     return x**3 - 3*x**2 + 9*x - 8
 
