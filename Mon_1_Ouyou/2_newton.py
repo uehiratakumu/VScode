@@ -34,4 +34,4 @@ x0 = float(input())
 x = newton(lambda x: f(x) - g(x), lambda x: df(x) - dg(x), x0)
 
 # Print the result
-print('{:.07f}'.format(x))
+print('{:.06f}'.format(x))
