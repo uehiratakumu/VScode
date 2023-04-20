@@ -15,8 +15,8 @@
 
 double DEL_T= 0.001;
 double CELL_X= 1.0;
-double CELL_Y= 1.0;
-double CELL_Z= 1.0;
+double CELL_Y= 10.0;
+double CELL_Z= 10.0;
 
 void initial( );            // Function Prototypes
 void force( );

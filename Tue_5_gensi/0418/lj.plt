@@ -1,7 +1,7 @@
 set size square
 set key box font ",24"
 set xran [0:1.000000]
-set yran [0:1.000000]
+set yran [0:10.000000]
 plot "lj00000000.dat" using 1:2 t "000000" w po pt 6 ps 3 lw 2
 pause -1
 plot "lj00000010.dat" using 1:2 t "000010" w po pt 6 ps 3 lw 2
