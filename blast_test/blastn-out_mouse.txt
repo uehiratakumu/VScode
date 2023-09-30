@@ -1,0 +1,45 @@
+BLASTN 2.14.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /Users/takumu/VScode/Mus_musculus_db/Mus_musculus.GRCm39.dna.topleve
+l.fa
+           1 sequences; 195,154,279 total letters
+
+
+
+Query= NM_001365902.3 Homo sapiens nuclear factor I X (NFIX), transcript
+variant 4, mRNA
+
+Length=6019
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1168973957500
+
+
+  Database: /Users/takumu/VScode/Mus_musculus_db/Mus_musculus.GRCm39.dna.topleve
+l.fa
+    Posted date:  Oct 1, 2023  1:35 AM
+  Number of letters in database: 195,154,279
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
