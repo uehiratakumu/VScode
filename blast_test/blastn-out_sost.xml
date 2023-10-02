@@ -6,7 +6,7 @@
   <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
   <BlastOutput_db>/Users/takumu/VScode/Mus_musculus_db/Mus_musculus.GRCm39.dna.toplevel.fa</BlastOutput_db>
   <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
-  <BlastOutput_query-def>NC_000077.7:c101857841-101853284 Sost [organism=Mus musculus] [GeneID=74499] [chromosome=11]</BlastOutput_query-def>
+  <BlastOutput_query-def>11 dna:chromosome chromosome:GRCm39:11:101853284:101857841:-1</BlastOutput_query-def>
   <BlastOutput_query-len>4558</BlastOutput_query-len>
   <BlastOutput_param>
     <Parameters>
@@ -22,7 +22,7 @@
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
   <Iteration_query-ID>Query_1</Iteration_query-ID>
-  <Iteration_query-def>NC_000077.7:c101857841-101853284 Sost [organism=Mus musculus] [GeneID=74499] [chromosome=11]</Iteration_query-def>
+  <Iteration_query-def>11 dna:chromosome chromosome:GRCm39:11:101853284:101857841:-1</Iteration_query-def>
   <Iteration_query-len>4558</Iteration_query-len>
 <Iteration_hits>
 <Hit>
