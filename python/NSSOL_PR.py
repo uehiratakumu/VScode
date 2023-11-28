@@ -1,9 +1,7 @@
+# 必要なライブラリのインポート
 import requests
 from bs4 import BeautifulSoup
-
-# 必要なライブラリのインポート
 import lxml
-from bs4 import BeautifulSoup
 from selenium import webdriver
 import chromedriver_binary
 import time
@@ -29,7 +27,6 @@ date_selector = "body > div.l-wrap > main > div:nth-child(3) > div:nth-child(3) 
 driver.get(url)  # NSSOL_PRにアクセス
 time.sleep(0.5)  # 0.5秒待機
 
-#date_selector = "body > div.l-wrap > header > div > a > img"
 date_select = driver.find_element(By.CSS_SELECTOR, date_selector)
 date_select_text =date_select.text
 # ブラウザを終了
@@ -49,10 +46,11 @@ if s  != t:
     with open(path, mode='w') as f:
         f.write(s)
 
-# トークンを確認してください
+# LINE Notifyのトークンを設定
 TOKEN = "JEf8loIMcsRM87uPfElmVtWVAC9kFlbPdzVXCvYoKMj"
 
 headers = {'Authorization': f'Bearer {TOKEN}'}
 data = {'message': k}
 
+# LINE Notifyを使用して通知を送信
 response = requests.post('https://notify-api.line.me/api/notify', headers=headers, data=data)
