@@ -14,6 +14,10 @@ from selenium.webdriver.chrome.options import Options
 import warnings
 warnings.filterwarnings('ignore')
 
+import chromedriver_binary_sync
+
+chromedriver_binary_sync.download()
+
 # Chromeのオプション設定
 options = Options()
 options.add_argument('--headless')  # ヘッドレスモード（ブラウザのUIなしで動作）
