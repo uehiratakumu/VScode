@@ -60,6 +60,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>cd /Users/takumu/VScode/VScode/python
+source /Users/takumu/VScode/.venv/bin/activate  
 /Library/Frameworks/Python.framework/Versions/3.9/bin/python3 NSSOL_PR.py</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -170,8 +171,6 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>

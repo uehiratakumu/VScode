@@ -7,7 +7,6 @@ import chromedriver_binary
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-import pandas as pd
 from selenium.webdriver.chrome.options import Options
 
 # 警告の非表示
@@ -38,7 +37,8 @@ driver.quit()
 
 s= date_select_text
 
-path = 'NSSOL_PR.txt'
+#path = 'NSSOL_PR.txt'
+path ="/Users/takumu/VScode/VScode/python/NSSOL_PR.txt"
 with open(path, mode='r') as f:
     t =f.read()
     if s == t:
